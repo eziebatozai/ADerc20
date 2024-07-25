@@ -1,9 +1,9 @@
 
 
-### 1. Clone Repository
+### 1. Clone Repository use gitpod only copy https://github...
 
 ```bash
-git clone https://github.com/Mnuralim/swisstronik-erc20-mint-token.git
+git clone https://github.com/eziebatozai/ADerc20.git
 ```
 
 ```
@@ -25,7 +25,7 @@ PRIVATE_KEY="your private key"
 ```
 
 ### 4. Create Smart Contract
-
+- edit nama token and simbol
 - Open contract folder
 - Create Token.sol file
 - Copy this code and paste there
@@ -38,7 +38,7 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract TestToken is ERC20 {
-    constructor()ERC20("IzzyToken","IZZY"){}
+    constructor()ERC20("airdrop","AD"){}
 
     function mint1000tokens() public {
         _mint(msg.sender,1000*10**18);
@@ -87,14 +87,4 @@ npm run balance-of
 npm run transfer
 ```
 
-### 11. Finsihed
-
-- Open the deployed-adddress.ts (location in utils folder)
-- Copy the address and paste the address in testnet dashboard
-- push this project to your github and paste your repository link in testnet dashboard
-
-by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
-//0x37401D115bC52bBdaa59Df7f7e021523b020F98f
+### 11. OTW task 3
